@@ -350,7 +350,6 @@ main {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
-  padding-top: 10px;
 }
 
 .info-content .name {
