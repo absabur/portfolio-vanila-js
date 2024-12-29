@@ -1,0 +1,42 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circuit Board Circle -->
+  <circle cx="40" cy="40" r="38" stroke="url(#circleGradient)" stroke-width="2"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M20 20 L40 40 L60 20" stroke="url(#circuitGradient)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 40 L40 70 M40 40 L10 60" stroke="url(#circuitGradient)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Electronic Components -->
+  <rect x="30" y="30" width="20" height="20" fill="url(#chipGradient)" rx="4"/>
+  <circle cx="10" cy="60" r="4" fill="url(#nodeGradient)"/>
+  <circle cx="60" cy="20" r="4" fill="url(#nodeGradient)"/>
+  <circle cx="40" cy="70" r="4" fill="url(#nodeGradient)"/>
+  
+  <!-- Signal Waves -->
+  <path d="M45 45 C50 35, 55 35, 60 45 M60 45 C65 55, 70 55, 75 45" 
+        stroke="url(#signalGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="circleGradient" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="circuitGradient" x1="20" y1="20" x2="60" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="chipGradient" x1="30" y1="30" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="nodeGradient" x1="0" y1="0" x2="8" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="signalGradient" x1="45" y1="35" x2="75" y2="55" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>

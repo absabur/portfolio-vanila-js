@@ -1,0 +1,20 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="38" stroke="url(#circleGradient)" stroke-width="2"/>
+  <path d="M20 30H60M20 40H60M20 50H60" stroke="url(#linesGradient)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="50" cy="50" r="12" fill="url(#magnifyingGlassGradient)"/>
+  <line x1="58" y1="58" x2="68" y2="68" stroke="#FFBC5E" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="circleGradient" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="linesGradient" x1="20" y1="30" x2="60" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+    <linearGradient id="magnifyingGlassGradient" x1="38" y1="38" x2="62" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFDB6E"/>
+      <stop offset="100%" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>
