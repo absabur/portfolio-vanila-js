@@ -31,6 +31,14 @@ const testimonialsModalFunc = function () {
   overlay.classList.toggle("active");
 };
 
+document.getElementById('resume-download-btn').addEventListener('click', function () {
+  const link = document.createElement('a');
+  link.href = './Md_Abdus_Sabur.pdf'; // Path to your PDF file
+  link.download = 'Md_Abdus_Sabur.pdf';    // Name for the downloaded file
+  link.click();
+});
+
+
 // add click event to all modal items
 for (let i = 0; i < testimonialsItem.length; i++) {
   testimonialsItem[i].addEventListener("click", function () {
