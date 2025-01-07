@@ -816,6 +816,20 @@ main {
   margin-bottom: 30px;
 }
 
+#resume-download-btn {
+  position: absolute;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: var(--vegas-gold);
+  transition: all 0.3s;
+}
+
+#resume-download-btn:hover {
+  background-color: var(--orange-yellow-crayola);
+  box-shadow: 0 0 10px 0 var(--vegas-gold);
+}
+
 /**
  * education and experience 
  */
